@@ -1,8 +1,46 @@
 import React from 'react'
+import styled from 'styled-components';
+import Rose from '../images/rose.png';
+import '../index.css';
 
+const HomeContainer = styled.div`
+background: ${({ theme }) => theme.bg};
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+`
+const Content = styled.div`
+width: 100%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+const ImageContainer = styled.img`
+width: 990px;
+`
+const Intro = styled.div`
+position: absolute;
+text-align: center;
+white-space: pre-line;
+top: 46%;
+left: 24%;
+font-size: 50px;
+color: ${({ theme }) => theme.text_primary};
+`
 const Home = () => {
   return (
-    <div>Home</div>
+    <HomeContainer>
+        <Content>
+            <ImageContainer src={Rose}/>
+            <Intro>
+                HELLO, I'M UPASANA CHAUDHURI,<br/>
+                A WEB DEVELOPER
+            </Intro>
+        </Content>
+    </HomeContainer>
   )
 }
 
