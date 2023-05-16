@@ -20,6 +20,10 @@ align-items: center;
 `
 const ImageContainer = styled.img`
 width: 990px;
+@media (max-width: 768px){
+    margin: 60px;
+    width: 1000px;
+  }
 `
 const Intro = styled.div`
 position: absolute;
@@ -29,6 +33,10 @@ top: 46%;
 left: 24%;
 font-size: 50px;
 color: ${({ theme }) => theme.text_primary};
+@media (max-width: 768px){
+    top: 26%;
+    left: 4%;
+  }
 `
 const Home = () => {
   return (
