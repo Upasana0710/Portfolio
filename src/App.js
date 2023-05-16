@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme } from './utils/Themes.js'
 import './index.css'
 import Home from './pages/Home';
+import About from './pages/About';
 import NavBar from './components/Navbar';
 import styled from 'styled-components';
 
@@ -25,6 +26,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' exact element={<Home />} />
+          <Route path='/about' exact element={<About />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
