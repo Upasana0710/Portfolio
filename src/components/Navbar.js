@@ -27,7 +27,7 @@ const Navbar = () => {
         <NavContainer>
             <NavLink to='/' style={{ color: 'inherit', textDecoration: 'none' }}><Nav>Home</Nav></NavLink>
             <NavLink to='/about' style={{ color: 'inherit', textDecoration: 'none' }}><Nav>About</Nav></NavLink>
-            <NavLink to='/' style={{ color: 'inherit', textDecoration: 'none' }}><Nav>Contact</Nav></NavLink>
+            <NavLink to='/projects' style={{ color: 'inherit', textDecoration: 'none' }}><Nav>Projects</Nav></NavLink>
             <NavLink to='/' style={{ color: 'inherit', textDecoration: 'none' }}><Nav>Work</Nav></NavLink>
         </NavContainer>
     )
