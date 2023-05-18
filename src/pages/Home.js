@@ -8,7 +8,7 @@ background: ${({ theme }) => theme.bg};
 width: 100%;
 height: 120vh;
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: flex-start;
 `
 const Content = styled.div`
