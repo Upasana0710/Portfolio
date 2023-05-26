@@ -4,9 +4,6 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme } from './utils/Themes.js'
 import './index.css'
 import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import NavBar from './components/Navbar';
 import styled from 'styled-components';
 
 const Portfolio = styled.div`
@@ -24,11 +21,9 @@ function App() {
     <Portfolio>
       <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
-        <NavBar />
+        
         <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path='/about' exact element={<About />} />
-          <Route path='/projects' exact element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
