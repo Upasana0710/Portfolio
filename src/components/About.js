@@ -104,7 +104,7 @@ font-size: 16px;
 `
 const About = () => {
     return (
-        <AboutContainer>
+        <AboutContainer id="about">
             <MainInfo>
                 <ImageContainer>
                     <Image src={Profile} />

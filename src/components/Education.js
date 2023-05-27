@@ -74,7 +74,7 @@ padding: 8px 0px;
 `
 const Education = () => {
   return (
-    <EducationContainer>
+    <EducationContainer id="education">
         <Heading>Education</Heading>
         <CardsContainer>
             <Card>

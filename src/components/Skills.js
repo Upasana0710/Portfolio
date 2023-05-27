@@ -42,7 +42,7 @@ background: ${({ theme }) => theme.bg};
 `
 const Skills = () => {
   return (
-    <SkillContainer>
+    <SkillContainer id="skills">
             <Heading>Skills</Heading>
             <List>
                 <Item>HTML</Item>

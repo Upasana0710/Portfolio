@@ -123,7 +123,7 @@ border-radius: 14px 14px 14px 14px;
 
 const Projects = () => {
     return (
-        <ProjectsContainer>
+        <ProjectsContainer id="projects">
             <Heading>Projects</Heading>
             <Cards>
                 <Card>
