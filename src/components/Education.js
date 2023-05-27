@@ -39,7 +39,7 @@ text-align: center;
 const Card = styled.div`
 background: ${({ theme }) => theme.bgLight};
 width: 250px;
-height: fit-content;
+height: 122px;
 border-radius: 8px;
 border: solid #2778cf;
 border-width: 4px 0px 0px 0px;
@@ -79,20 +79,20 @@ const Education = () => {
         <CardsContainer>
             <Card>
                 <Study>BTech in CSE</Study>
-                <Institution>Kalinga Institute of Industrial Technology</Institution>
+                <Institution>Kalinga Institute of Industrial Technology, Bhubaneswar</Institution>
                 <Duration>September 2021 - September 2025</Duration>
                 <Marks>CGPA - 9.5</Marks>
             </Card>
             <Card>
                 <Study>Class 12 CBSE</Study>
-                <Institution>Sushila Birla Girls' School</Institution>
+                <Institution>Sushila Birla Girls' School, Kolkata</Institution>
                 <Duration>March 2019 - March 2021</Duration>
                 <Marks>Percentage - 96.8%</Marks>
             </Card>
             <Card>
                 <Study>Class 10 ICSE</Study>
-                <Institution>Modern High School For Girls</Institution>
-                <Duration>March 2019 - March 2017</Duration>
+                <Institution>Modern High School For Girls, Kolkata</Institution>
+                <Duration>March 2017 - March 2019</Duration>
                 <Marks>Percentage - 96%</Marks>
             </Card>
         </CardsContainer>
