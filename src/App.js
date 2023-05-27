@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from "styled-components";
 import { darkTheme } from './utils/Themes.js'
 import './index.css'
-import Home from './pages/Home';
+import Home from './pages/Home.js';
+import About from './components/About.js';
 import styled from 'styled-components';
 
 const Portfolio = styled.div`
@@ -21,7 +22,6 @@ function App() {
     <Portfolio>
       <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
-        
         <Routes>
           <Route path='/' exact element={<Home />} />
         </Routes>
