@@ -6,8 +6,10 @@ background: ${({ theme }) => theme.bg};
 width: 100%;
 height: 60vh;
 @media (max-width: 768px){
-    padding: 40px 0px;
-    height: 180vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 `
 const CardsContainer = styled.div`
@@ -21,6 +23,7 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px;
   }
 `
 const Heading = styled.div`
