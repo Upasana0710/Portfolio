@@ -129,7 +129,7 @@ const About = () => {
                             </Contact>
                         </a>
                     </Contacts>
-                    <Link to="https://drive.google.com/file/d/1Cd21v62yB0PVtG3I2RmtVfBdUlcg-XLB/view?usp=sharing" style={{textDecoration: "none"}}><Resume>Link to Resume</Resume></Link>
+                    <Link to="https://drive.google.com/file/d/101sEoya9iwurbv3Vz2MpG4ds4tYilAd0/view?usp=sharing" style={{textDecoration: "none"}}><Resume>Link to Resume</Resume></Link>
                 </WrittenInfo>
             </MainInfo>
         </AboutContainer>
